@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -21,18 +20,20 @@ body {
 
 header {
     background: #FFD700;
-    padding: 30px 0;
+    padding: 30px 0px;
     position: sticky;
-    
-    
+
+
 }
 
 header .logo {
     float: left;
     font-size: 24px;
     font-weight: 700;
-    
-    
+    padding-bottom: 10px;
+    font-style: italic;
+
+
 }
 
 header nav {
@@ -81,7 +82,7 @@ header nav {
     padding: 12px 30px;
     border-radius: 25px;
     font-weight: 700;
-    
+
 }
 
 .hero .btn:hover {
@@ -127,7 +128,7 @@ header nav {
     background: #fff;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
 
@@ -166,11 +167,11 @@ header nav {
     padding: 12px 30px;
     border-radius: 25px;
     font-weight: 700;
-   
+
 }
 
 .contact .btn:hover {
-   color: #f9f9f9;
+    color: #f9f9f9;
 }
 
 
